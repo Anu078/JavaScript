@@ -41,3 +41,25 @@ const myFunction = function() {
     
 }
 myFunction()
+
+
+/* ************************************************************************************ */
+
+let myyoutubename = "NO Channel";
+console.log(myyoutubename);
+
+let anothername = myyoutubename;
+anothername = "Hyderabadi gamer";
+
+console.log(anothername);
+
+let userOne = {
+    email: "yoyo@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email =  "Hyderbadi gamer";
+console.log(userOne.email);
+console.log(userTwo.email);
