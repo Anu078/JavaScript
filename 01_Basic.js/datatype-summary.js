@@ -44,7 +44,12 @@ myFunction()
 
 
 /* ************************************************************************************ */
+//all primitive datatype are use stack memory
 
+ //in stack memory if we want to modify our code then it will create a copy of this code and modify that copy original code will no=t be change
+
+ //stack memory example 
+ 
 let myyoutubename = "NO Channel";
 console.log(myyoutubename);
 
@@ -52,6 +57,12 @@ let anothername = myyoutubename;
 anothername = "Hyderabadi gamer";
 
 console.log(anothername);
+
+//all non-primitive(reference) datatype are use heap memory
+
+//it will directly modify the original code it does'nt create any code
+
+ //heap memory example
 
 let userOne = {
     email: "yoyo@gmail.com",
