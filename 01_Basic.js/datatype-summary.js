@@ -46,7 +46,7 @@ myFunction()
 /* ************************************************************************************ */
 //all primitive datatype are use stack memory
 
- //in stack memory if we want to modify our code then it will create a copy of this code and modify that copy original code will no=t be change
+ //in stack memory if we want to modify our code then it will create a copy of original code and modify it original code will not be change
 
  //stack memory example 
  
